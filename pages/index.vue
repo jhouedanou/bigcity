@@ -1,7 +1,7 @@
-<template></template>
+<script setup></script>
 
-<script>
-export default {
-  name: "IndexPage",
-};
-</script>
+<template>
+  <div>
+    <ContentDoc />
+  </div>
+</template>

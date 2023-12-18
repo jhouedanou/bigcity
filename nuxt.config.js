@@ -43,10 +43,13 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/content
-    "@nuxt/content",
-  ],
+  modules: ["@nuxt/content"],
+
+  markdownit: {
+    preset: "default",
+    linkify: true,
+    breaks: true,
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

@@ -3,8 +3,9 @@
     <header>
       <Navigation />
     </header>
-
-    <Nuxt />
+    <main>
+      <slot />
+    </main>
 
     <footer>
       <p>Mon footer</p>
