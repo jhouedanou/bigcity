@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="99" height="99" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#d4d4d4" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(19.5 19.5)">
+    <g transform="matrix(1, 0, 0, 1, -19.5, -19.5)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="30" cy="30" r="30" transform="translate(19.5 19.5)" fill="#2a0162"/>
+    </g>
+    <g id="bullesourire" transform="translate(15 13)">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M28.986,34.433h0l-7.346-5.519H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H25a4,4,0,0,1,4,4V24.913c0,.111,0,.222-.014.33v9.19ZM5.725,19.782a1.146,1.146,0,0,0-1.008.6,1.139,1.139,0,0,0,.463,1.546,19.211,19.211,0,0,0,9.192,2.378,23.129,23.129,0,0,0,9.775-2.348A1.141,1.141,0,0,0,24.7,20.44a1.147,1.147,0,0,0-1.523-.549,20.869,20.869,0,0,1-8.8,2.15,16.736,16.736,0,0,1-8.107-2.12A1.146,1.146,0,0,0,5.725,19.782Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
