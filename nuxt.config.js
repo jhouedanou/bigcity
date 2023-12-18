@@ -43,7 +43,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxt/image"],
 
   markdownit: {
     preset: "default",
@@ -56,7 +56,11 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: "/",
   },
-
+  image: {
+    provider: "imagekit",
+    quality: 80,
+    formats: ["webp", "avif"],
+  },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
