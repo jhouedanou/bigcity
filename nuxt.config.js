@@ -14,8 +14,8 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // Charge un fichier SCSS global
-    "@/assets/styles/bootstrap.scss",
     "@/assets/styles/global.scss",
+    "@/assets/styles/bootstrap.scss",
 
     // Charge les fichiers SCSS par composant
     // "@/components/**/*.scss",
@@ -57,8 +57,9 @@ export default {
     baseURL: "/",
   },
   image: {
-    format: ["webp"],
+    provider: "imagekit",
     quality: 80,
+    formats: ["webp", "avif"],
   },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

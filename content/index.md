@@ -30,11 +30,13 @@ forte et engagée…'
         vos produits ou services, promouvoir votre image, créer une communauté
         business ou associative...
       </h2>
+
       <div class="row">
         <div class="col-md-6 col-12">
           <h3>Découvrez nos solutions "Mobile First"...</h3>
           <p>Gagnez de l’impact ! Quel que soit le public que vous ciblez...</p>
         </div>
+
         <div class="col-md-6 col-12">
           <img src="/assets/images/jennyfer.png" alt="Jennyfer" />
         </div>
@@ -65,6 +67,7 @@ forte et engagée…'
             <li>un annuaire BtoBtoC</li>
             <li>une plateforme pour votre fédération</li>
             <li>une application de votre choix</li>
+
           </ul></p>
         </div>
       </div>
@@ -128,6 +131,7 @@ interactions avec votre cible.
             <p>Parlez-nous de votre projet, nous allons le rendre réel !
 </p>
             <a href="#">Contactez-nous</a>
+
           </div>
         </div>
      </div>
