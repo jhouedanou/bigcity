@@ -1,15 +1,4 @@
 <script setup>
-import {ref, onMounted} from 'vue'
-const video = ref(null)
-onMounted(() => {
-  video.value.addEventListener('mouseover', () => {
-    video.value.controls = false
-  })
-
-  video.value.addEventListener('mouseout', () => {
-    video.value.controls = true
-  })
-})
 </script>
 
 <template>
