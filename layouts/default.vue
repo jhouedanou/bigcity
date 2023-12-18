@@ -8,7 +8,7 @@
     </main>
 
     <footer>
-      <p>Mon footer</p>
+      <Footer></Footer>
     </footer>
   </div>
 </template>

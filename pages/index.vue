@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="bande" id="hero">
+  <section class="bande purple" id="hero">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-12">
@@ -33,7 +33,7 @@ onMounted(() => {
     </div>
   </section>
 
-  <section class="bande" id="jennyfer">
+  <section class="bande purple" id="jennyfer">
     <div class="container">
       <h2>
         Créez facilement votre application de contenu que vous vouliez vendre
@@ -49,7 +49,7 @@ onMounted(() => {
         </div>
 
         <div class="col-md-6 col-12">
-          <img src="/assets/images/jennyfer.jpg" alt="Jennyfer" />
+          <img src="/assets/images/jennyfer.png" alt="Jennyfer" />
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@ onMounted(() => {
       </div>
     </div>
   </section>
-  <section class="bande" id="nouvelles-experiences">
+  <section class="bande purple" id="nouvelles-experiences">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
