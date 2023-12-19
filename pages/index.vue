@@ -38,7 +38,7 @@
         </div>
 
         <div class="col-md-6 col-12">
-          <img src="/assets/images/jennyfer.png" alt="Jennyfer" />
+
         </div>
       </div>
     </div>
