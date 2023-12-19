@@ -5,16 +5,20 @@
   <section class="bande purple" id="hero">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div class="col-md-5 col-12">
           <h1>Le CMS éditeur d'application Social Media Business</h1>
           <p>
-            Créez facilement votre application de contenu que vous vouliez
-            vendre vos produits ou services, promouvoir votre image, créer une
-            communauté forte et engagée...
+            Créez facilement votre application de contenu<br>que vous vouliez
+            vendre vos produits ou services,<br>promouvoir votre image, créer une
+            communauté<br>forte et engagée...
           </p>
+          <div class="cta">
+            <a href="">Découvrir</a>
+            <a href="">Quel est votre projet ?</a>
+          </div>
         </div>
-        <div class="col-md-6 col-12">
-          <img src="/assets/images/telhomepage.png" alt="Image 1" />
+        <div id="javier" class="col-md-7 col-12">
+          <img id="image1" src="/assets/images/telhomepage.png" alt="Image 1" />
           <img src="/assets/images/dashboardhomepage1.png" alt="Image 2" />
           <img src="/assets/images/dashboardhomepage2.png" alt="Image 3" />
         </div>
