@@ -7,14 +7,11 @@
       class="container d-flex flex-row justify-content-between align-items-center"
     >
       <div class="col d-flex flex-row">
-        <nuxt-link to="/">
-          <img src="/assets/images/iconlogoheader.svg" alt=""
-        /></nuxt-link>
+        <nuxt-link class="logo" to="/"></nuxt-link>
 
         <nav>
-          <nuxt-link to="/about">À propos</nuxt-link>
-
-          <div class="dropdown">
+          <nuxt-link class="kang" to="/about">À propos</nuxt-link>
+          <div class="dropdown kang">
             <nuxt-link to="/apps">Applications</nuxt-link>
 
             <div class="dropdown-content">
@@ -22,14 +19,14 @@
               <nuxt-link to="/apps/b2b">B2B</nuxt-link>
             </div>
           </div>
-
-          <nuxt-link to="/pricing">Tarifs</nuxt-link>
+          <nuxt-link id="drdoom" class="kang" to="/pricing">Tarifs</nuxt-link>
         </nav>
       </div>
       <div class="col">
         <a href="">Contact <img src="/assets/images/enveloppe.svg" alt="" /></a>
-        <a href="#">Demandez une demo</a>
+        <a id="majors" href="#">Demandez une demo</a>
       </div>
     </div>
   </div>
 </template>
+<style></style>
