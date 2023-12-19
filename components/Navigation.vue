@@ -17,13 +17,21 @@
             <div class="dropdown-content">
               <nuxt-link to="/apps/marketplace">Marketplace</nuxt-link>
               <nuxt-link to="/apps/b2b">B2B</nuxt-link>
+              <nuxt-link to="/apps/marketplace">Marketplace</nuxt-link>
+              <nuxt-link to="/apps/b2b">B2B</nuxt-link>
+              <nuxt-link to="/apps/marketplace">Marketplace</nuxt-link>
+              <nuxt-link to="/apps/b2b">B2B</nuxt-link>
+              <nuxt-link to="/apps/marketplace">Marketplace</nuxt-link>
+              <nuxt-link to="/apps/b2b">B2B</nuxt-link>
             </div>
           </div>
           <nuxt-link id="drdoom" class="kang" to="/pricing">Tarifs</nuxt-link>
         </nav>
       </div>
       <div class="col">
-        <a href="">Contact <img src="/assets/images/enveloppe.svg" alt="" /></a>
+        <a id="johna" href=""
+          >Contact <img src="/assets/images/enveloppe.svg" alt=""
+        /></a>
         <a id="majors" href="#">Demandez une demo</a>
       </div>
     </div>
