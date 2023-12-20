@@ -29,9 +29,7 @@
   <section class="bande purple" id="jennyfer">
     <div class="container">
       <h2>
-        Créez facilement votre application de contenu que vous vouliez vendre
-        vos produits ou services, promouvoir votre image, créer une communauté
-        business ou associative...
+        Créez facilement votre application de contenu<br>que vous vouliez vendre vos produits ou services,<br>promouvoir votre image, créer une communauté<br>business ou associative...
       </h2>
 
       <div class="row">
