@@ -181,22 +181,31 @@ section.bande {
 
   &#hero {
     padding: 100px 0;
+    background: url(/_nuxt/assets/images/Ellipsefondviolet.png) #230055 center right no-repeat;
+
     #javier {
-      background: url(assets/images/ellipsefondviolet.png) center center no-repeat;
       -webkit-background-size: contain;
       -moz-background-size: contain;
       -o-background-size: contain;
       background-size: contain;
       position: relative;
+      height: 720px;
       img {
         position: absolute;
         &:nth-of-type(1) {
+          z-index: 3;
+          left: -18px;
         }
         &:nth-of-type(2) {
+          right: 162px;
           bottom: 0;
+          z-index: 2;
         }
 
         &:nth-of-type(3) {
+          right: 52px;
+          top: 74px;
+          z-index: 1;
         }
       }
     }
