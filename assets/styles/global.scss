@@ -26,6 +26,33 @@ $maxwidth: 1629px;
   color: #fff;
   line-height: 34px;
 }
+@mixin bouton() {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: none;
+  padding: 6px 6px;
+  border-radius: 50px;
+  font-size: 18px;
+  background: $purple;
+  letter-spacing: 1px;
+}
+@mixin soustitreJennyfer() {
+  font-size: 52px;
+  line-height: 57px;
+  margin-top: 30px;
+  letter-spacing: 0px;
+
+  font-weight: 600 !important;
+}
+@mixin soustitreJennyfer2() {
+  margin-bottom: 10px;
+  font-size: 33px;
+  line-height: 44px;
+  margin-top: 9px;
+  font-weight: 500 !important;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -159,7 +186,8 @@ body {
     margin-left: 10px;
   }
 }
-section.bande {
+.bande {
+  // height: 100vh;
   .container {
     max-width: $maxwidth;
     padding: 0;
@@ -186,7 +214,7 @@ section.bande {
 
   &#hero {
     padding: 100px 0;
-    background: url(/_nuxt/assets/images/ellipsefondviolet.png) #230055 70% center no-repeat;
+    background: url(assets/images/ellipsefondviolet.png) #230055 70% center no-repeat;
     position: relative;
     background-size: contain;
 
@@ -220,15 +248,7 @@ section.bande {
       display: flex;
       flex-direction: row;
       a {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        font-weight: bold;
-        border-bottom: none;
-        padding: 6px 6px;
-        font-size: 22px;
-        border-radius: 50px;
-        font-size: 22px;
+        @include bouton();
         &:nth-of-type(1) {
           background: white;
           color: $purple;
@@ -263,23 +283,16 @@ section.bande {
 
   &#jennyfer {
     padding: 50px 0;
-    background: url(/_nuxt/assets/images/jennyfer.png) #230055 194% 103% no-repeat;
-    height: 1083px;
+    background: url(assets/images/jennyfer.png) #230055 43vw 7vh no-repeat;
     #feige {
       margin-top: 100px;
     }
     h2 {
-      font-size: 52px;
-      line-height: 57px;
-      margin-top: 30px;
-      letter-spacing: 0px;
+      @include soustitreJennyfer();
     }
 
     h3 {
-      margin-bottom: 10px;
-      font-size: 33px;
-      line-height: 44px;
-      margin-top: 9px;
+      @include soustitreJennyfer2();
     }
     p {
       @include soustexte();
@@ -325,16 +338,23 @@ section.bande {
     }
 
     h2 {
-      margin-bottom: 20px;
+      margin-top: 244px !important;
+      margin-bottom: 30px;
+      @include soustitreJennyfer();
     }
 
     p {
+      padding-top: 21px !important;
       margin-bottom: 30px;
+      @include soustitreJennyfer2();
     }
 
     a {
       display: inline-block;
-      margin-top: 20px;
+      @include bouton();
+      margin-top: 3px;
+      border: 3px white solid;
+      display: inline-flex;
     }
   }
 
