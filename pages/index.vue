@@ -35,7 +35,7 @@
       <div class="row">
         <div id="feige" class="col-md-5 col-12">
           <h3>Découvrez nos solutions "Mobile First"<br>pour valoriser votre offre ou votre identité,<br>faites gagner du temps à vos équipes<br> pour optimiser les processus de vente <br>et votre stratégie de communication.</h3>
-          <p>Gagnez de l’impact ! Quel que soit le public que vous ciblez,<br>BIG CITY répond à des besoins de diffusion de contenu, d’interactions marchandes, d’animation de communauté, de partage d’informations <br>ou d’événements, de collecte de données qualifiées et plus encore…</p>
+          <p>Gagnez de l’impact ! Quel que soit le public que vous ciblez,<br>BIG CITY répond à des besoins de diffusion de contenu, d’interactions marchandes, d’animation de communauté, de partage d’informations<br>ou d’événements, de collecte de données qualifiées et plus encore…</p>
         </div>
 
         <div class="col-md-7 col-12">
@@ -48,7 +48,7 @@
   <section class="bande" id="video">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div id="yoko" class="col-md-6 col-12 d-flex justify-center align-center">
           <video
             src="/assets/images/Bigcityanim_2.mp4"
             autoplay
@@ -57,7 +57,7 @@
           ></video>
         </div>
         <div class="col-md-6 col-12">
-          <h2>Avec BIG City, vous pouvez rapidement créer…</h2>
+          <h2>Avec BIG City,<br>vous pouvez<br>rapidement créer…</h2>
           <p><ul>
             <li>une application Brand-content</li>
             <li>une application BtoB</li>
