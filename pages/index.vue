@@ -33,13 +33,12 @@
       </h2>
 
       <div class="row">
-        <div class="col-md-6 col-12">
-          <h3>Découvrez nos solutions "Mobile First"...</h3>
-
-          <p>Gagnez de l’impact ! Quel que soit le public que vous ciblez...</p>
+        <div id="feige" class="col-md-5 col-12">
+          <h3>Découvrez nos solutions "Mobile First"<br>pour valoriser votre offre ou votre identité,<br>faites gagner du temps à vos équipes<br> pour optimiser les processus de vente <br>et votre stratégie de communication.</h3>
+          <p>Gagnez de l’impact ! Quel que soit le public que vous ciblez,<br>BIG CITY répond à des besoins de diffusion de contenu, d’interactions marchandes, d’animation de communauté, de partage d’informations <br>ou d’événements, de collecte de données qualifiées et plus encore…</p>
         </div>
 
-        <div class="col-md-6 col-12">
+        <div class="col-md-7 col-12">
 
         </div>
       </div>
