@@ -107,22 +107,20 @@
       <div class="bande swiper-slide" id="nocode">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-5">
+            <div id="wiso" class="col-12 col-md-6">
               <h2>BIG CITY, le cms d’application
                 no code multi-sites.</h2>
               <p>
                 Vous allez aller plus vite grâce au système de gestion de
                 contenu multi site pour créer votre communauté BtoB, BtoC,
-                BtoBtoC et créer des expériences utilisateurs innovantes.
-                <strong>Laissez votre créativité respirer !
+                BtoBtoC et créer des expériences utilisateurs innovantes.<br>
+                <strong>Laissez votre créativité respirer !<br>
                   Big City s’occupe du reste.</strong>
               </p>
-              <a href="#">Découvrir les fonctionnalités</a>
             </div>
-            <div id="furelse" class="col-12 col-md-7">
+            <div id="furelse" class="col-12 col-md-6">
               <!-- Contenu de la colonne de droite -->
-              <img src="/assets/images/illutsraionNocode.jpg" alt
-                class="img-fluid">
+
             </div>
 
           </div>
