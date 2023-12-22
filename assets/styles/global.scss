@@ -227,7 +227,7 @@ body {
   }
   &#hero {
     padding: 0;
-    background: url(assets/images/ellipsefondviolet.png) #230055 right 3vh no-repeat;
+    background: url(assets/images/backgroundsection.png) #230055 right 3vh no-repeat;
     position: relative;
     background-size: contain;
 
@@ -345,7 +345,7 @@ body {
   }
 
   &#nouvelles-experiences {
-    background: url(assets/images/kevin.png) left 0 no-repeat $purple;
+    background: url(assets/images/kevin.png) -123% 0 no-repeat $purple;
     padding: 50px 0;
 
     img {
@@ -381,7 +381,14 @@ body {
     }
 
     h2 {
-      margin-bottom: 20px;
+      margin-top: 244px !important;
+      margin-bottom: 30px;
+      font-size: 52px;
+      line-height: 57px;
+      margin-top: 30px;
+      letter-spacing: 0px;
+      color: $purple;
+      font-weight: 600 !important;
     }
 
     p {

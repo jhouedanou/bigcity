@@ -107,7 +107,7 @@
       <div class="bande swiper-slide" id="nocode">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-5">
               <h2>BIG CITY, le cms d’application
                 no code multi-sites.</h2>
               <p>
@@ -119,7 +119,7 @@
               </p>
               <a href="#">Découvrir les fonctionnalités</a>
             </div>
-            <div class="col-12 col-md-6">
+            <dividclass="col-12 col-md-7">
               <!-- Contenu de la colonne de droite -->
               <img src="/assets/images/illutsraionNocode.jpg" alt
                 class="img-fluid">
