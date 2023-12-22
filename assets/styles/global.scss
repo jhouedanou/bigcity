@@ -227,7 +227,7 @@ body {
   }
   &#hero {
     padding: 0;
-    background: url(assets/images/backgroundsection.png) #230055 right 3vh no-repeat;
+    background: url("assets/images/backgroundsection.png") #230055 right 3vh no-repeat;
     position: relative;
     background-size: contain;
 
@@ -297,7 +297,7 @@ body {
 
   &#jennyfer {
     padding: 50px 0;
-    background: url(assets/images/jennyfer.png) #230055 35vw bottom no-repeat;
+    background: url("assets/images/jennyfer.png") #230055 35vw bottom no-repeat;
     #feige {
       margin-top: 100px;
     }
@@ -345,7 +345,7 @@ body {
   }
 
   &#nouvelles-experiences {
-    background: url(assets/images/kevin.png) -123% 0 no-repeat $purple;
+    background: url("assets/images/kevin.png") -123% 0 no-repeat $purple;
     padding: 50px 0;
 
     img {
@@ -419,7 +419,7 @@ header {
   }
 }
 #furelse {
-  background: url(/assets/images/illutsraionNocode.jpg);
+  background: url("assets/images/illutsraionNocode.jpg");
 }
 #wiso {
   margin-left: 93px;
