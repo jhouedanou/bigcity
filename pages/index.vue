@@ -129,11 +129,11 @@
       <div class="uncmstaille purple swiper-slide" id="nouvelles-experiences">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-5">
               <!-- Contenu de la colonne de droite -->
 
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-7">
               <h2>Un CMS taillé pour répondre
                 à des objectifs marketing et
                 commerciaux, de communication
