@@ -1,12 +1,12 @@
 <template>
-  <div class="swiper-container" ref="swiperContainer">
+  <div id="tomust" class="swiper-container" ref="swiperContainer">
     <!-- Additional wrapper for slides -->
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="bande purple swiper-slide" id="hero">
         <div class="container">
           <div class="row">
-            <div class="col-md-5 col-12">
+            <div id="kopdax" class="col-md-5 col-12 d-flex justify-content-center flex-column">
               <h1>Le CMS éditeur d'application Social Media Business</h1>
               <p>
                 Créez facilement votre application de contenu<br>que vous
@@ -181,9 +181,9 @@ onMounted(() => {
     spaceBetween: 0,
     mousewheel: true,
     keyboard: true,
-    loop: true,
+    loop: false,
     autoplay: {
-      delay: 30000,
+      delay: 300000,
       disableOnInteraction: false,
     },
     pagination: {

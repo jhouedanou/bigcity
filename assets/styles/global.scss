@@ -32,7 +32,8 @@ $maxwidth: 1629px;
   text-decoration: none;
   font-weight: bold;
   border-bottom: none;
-  padding: 6px 6px;
+  padding: 6px 24px;
+
   border-radius: 50px;
   font-size: 18px;
   background: $purple;
@@ -53,6 +54,9 @@ $maxwidth: 1629px;
   margin-top: 9px;
   font-weight: 500 !important;
 }
+body {
+  overflow-x: hidden;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -60,6 +64,12 @@ $maxwidth: 1629px;
   }
 }
 
+#tomust {
+  overflow: hidden;
+}
+.bande {
+  height: 100vh;
+}
 .dropdown-content {
   display: none;
   position: fixed;
@@ -119,6 +129,7 @@ body {
     margin-top: 72px;
     border-radius: 46px;
     padding: 0;
+    width: 100vw;
     .col {
       &:nth-of-type(2) {
         display: flex;
@@ -211,10 +222,12 @@ body {
       }
     }
   }
-
+  #kopdax {
+    margin-top: 125px;
+  }
   &#hero {
-    padding: 100px 0;
-    background: url(assets/images/ellipsefondviolet.png) #230055 70% center no-repeat;
+    padding: 0;
+    background: url(assets/images/ellipsefondviolet.png) #230055 right 3vh no-repeat;
     position: relative;
     background-size: contain;
 
@@ -225,6 +238,7 @@ body {
       background-size: contain;
       position: relative;
       height: 720px;
+      margin-top: 17em;
       img {
         position: absolute;
         &:nth-of-type(1) {
@@ -274,7 +288,7 @@ body {
       }
     }
     p {
-      margin-top: 1em;
+      margin-top: 0em !important;
       @include soustexte();
     }
     img {
@@ -283,7 +297,7 @@ body {
 
   &#jennyfer {
     padding: 50px 0;
-    background: url(assets/images/jennyfer.png) #230055 43vw 7vh no-repeat;
+    background: url(assets/images/jennyfer.png) #230055 35vw bottom no-repeat;
     #feige {
       margin-top: 100px;
     }
@@ -331,6 +345,7 @@ body {
   }
 
   &#nouvelles-experiences {
+    background: url(assets/images/kevin.png) left 0 no-repeat $purple;
     padding: 50px 0;
 
     img {
@@ -379,7 +394,17 @@ body {
     }
   }
 }
-
+header {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  margin: 0 auto;
+  width: 100vw;
+  justify-content: center;
+  left: 0;
+  background: none;
+  right: 0;
+}
 #parleznous {
   margin-top: 30px;
 

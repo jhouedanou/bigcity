@@ -1,7 +1,7 @@
 <template>
   <div
     id="headerwrapper"
-    class="purple d-flex justify-content-between align-items-center"
+    class="d-flex justify-content-between align-items-center"
   >
     <div
       class="container d-flex flex-row justify-content-between align-items-center"
