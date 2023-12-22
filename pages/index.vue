@@ -119,7 +119,7 @@
               </p>
               <a href="#">Découvrir les fonctionnalités</a>
             </div>
-            <dividclass="col-12 col-md-7">
+            <div id="furelse" class="col-12 col-md-7">
               <!-- Contenu de la colonne de droite -->
               <img src="/assets/images/illutsraionNocode.jpg" alt
                 class="img-fluid">
