@@ -131,7 +131,7 @@
           <div class="row">
             <div class="col-12 col-md-6">
               <!-- Contenu de la colonne de droite -->
-              <img src="/assets/images/aliceetcms.png" alt class="img-fluid">
+
             </div>
             <div class="col-12 col-md-6">
               <h2>Un CMS taillé pour répondre
