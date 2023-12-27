@@ -163,12 +163,13 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import Swiper, { Pagination, Mousewheel, Autoplay, Keyboard } from "swiper";
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
 import "swiper/css";
 import "swiper/css/pagination";
 
 // configure Swiper to use modules
-Swiper.use([Pagination, Mousewheel, Autoplay, Keyboard]);
+Swiper.use();
 
 const swiperContainer = ref(null);
 
@@ -177,13 +178,15 @@ onMounted(() => {
     direction: "vertical",
     slidesPerView: "auto",
     spaceBetween: 0,
-    mousewheel: true,
-    keyboard: true,
-    loop: false,
-    autoplay: {
-      delay: 300000,
-      disableOnInteraction: false,
-    },
+   // Enable keyboard controls
+  keyboard: {
+    enabled: true
+  },
+
+  // Enable mousewheel controls
+  mousewheel: {
+    enabled: true
+  },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
